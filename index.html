@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Yadav | 3D Animation & Design</title>
+    <meta name="description" content="Portfolio of Sunny Yadav, specializing in 3D animations, modeling, and digital art experiences.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Three.js (from CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <nav class="navbar">
+        <div class="logo">Sunny<span>3D.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="btn primary-btn" style="padding: 0.5rem 1.2rem; font-size: 0.9rem;">Let's Talk</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Sunny Yadav">Sunny Yadav</h1>
+                <h2>Bringing Imagination to Life in 3D</h2>
+                <p>Welcome to my realm of digital creation. Explore cutting-edge 3D animations, hyper-realistic modeling, and visually stunning interactive experiences built to wow the world.</p>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn primary-btn">Explore Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="glass-card decorative-card">
+                <div class="card-inner">
+                    <span>Explore the Universe</span>
+                    <div class="pulse-ring"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2 class="section-title">Featured <span>Animations</span></h2>
+            <div class="gallery">
+                <div class="project-card">
+                    <div class="project-img placeholder-1"></div>
+                    <div class="project-info">
+                        <h3>Cyberpunk Cityscape</h3>
+                        <p>A full 3D rendered environment with dynamic neon lighting and rich textures.</p>
+                        <a href="#" class="view-btn">Watch Animation &rsaquo;</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img placeholder-2"></div>
+                    <div class="project-info">
+                        <h3>Character Rigging</h3>
+                        <p>Advanced facial expressions, fluid body mechanics, and complex IK structures.</p>
+                        <a href="#" class="view-btn">Watch Animation &rsaquo;</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img placeholder-3"></div>
+                    <div class="project-info">
+                        <h3>Product Visualization</h3>
+                        <p>High-fidelity, ultra-realistic visual rendering designed for modern tech products.</p>
+                        <a href="#" class="view-btn">Watch Animation &rsaquo;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="glass-panel">
+                <h2>Let's build something <span>extraordinary</span></h2>
+                <p>Available for freelance opportunities, full-time roles, or collaborating on ambitious projects.</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
